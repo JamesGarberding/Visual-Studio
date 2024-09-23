@@ -1,0 +1,150 @@
+body{
+    background-color: darkolivegreen;
+
+}
+header{
+ 
+    background-color: rgb(105, 141, 224);
+    font-size: 24px;
+    font: menu;
+    color: aliceblue;
+    border: 2px solid blue;
+    height: 25px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    
+}
+nav{
+
+    background-color: rgb(105, 141, 224);
+    font-size: 24px;
+    font: menu;
+    color: aliceblue;
+    border: 2px solid blue;
+    height: 25px;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 25%;
+    text-align: center;
+}
+footer{
+    position: relative;
+    background-color: rgb(105, 141, 224);
+    font-size: 24px;
+    font: menu;
+    color: aliceblue;
+    border: 2px solid blue;
+    padding: 3px;
+    width: 100%;
+    margin-top: 100%;
+}
+th, td, caption{
+   
+    background-color: rgb(0, 34, 113);
+    font-size: 24px;
+    font: menu;
+    color: aliceblue;
+    border: 2px solid blue;
+    padding: 5px;
+    
+}
+table{
+    width: 80%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 10%;
+    position: fixed;
+    background-color: rgb(208, 222, 255);
+    font-size: 24px;
+    font: menu;
+    color: aliceblue;
+    border: 2px solid blue;
+}
+.red{
+    background-color: rgb(219, 0, 50);
+    color: silver;
+}
+.silver{
+    background-color: silver;
+    color: rgb(219, 0, 50);
+}
+.gridBody{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    width: 50%;
+    text-align: center;
+    height: 40%;
+    margin-top: 25%;
+    margin-left: 26%;
+}
+.gridContent, h3{
+    background-color: rgb(179, 201, 255);
+    font-size: 24px;
+    font: menu;
+    color: rgb(88, 88, 88);
+    
+    grid-area: auto;
+    grid-column: 1-6;
+    grid-row: 1-6;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 100%;
+    height: 150%;
+}
+.gridContent{
+    border: 2px solid blue;
+}
+img{
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-top: 10%;
+}
+li{
+    font-size: 32px;
+    font: menu;
+    color: aliceblue;
+    background-color: rgb(105, 141, 224);
+    border: 2px solid blue;
+    margin-left: 15%;
+    
+    
+    width: 40%;
+    height: 30%;
+}
+ul{
+    margin-top: 25%;
+}
+h2{
+    color: aliceblue;
+    background-color: rgb(105, 141, 224);
+    border: 2px solid blue;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 10%;
+    text-align: center;
+    margin-left: 25%;
+}
+.center{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+    height: 20%;
+    color: aliceblue;
+    background-color: rgb(105, 141, 224);
+    border: 2px solid blue;
+    flex-wrap: wrap;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+    background-color: rgb(105, 141, 224);
+    border: 2px solid blue;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 10%;
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 25%;
+}
